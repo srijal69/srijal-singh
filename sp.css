@@ -1,0 +1,144 @@
+body{
+    background-color: lightgreen;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: end;
+    @media (max-width:940px) {
+        
+    }
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 150px;
+    padding: 0 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+   
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('rg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 7px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+
+
+.songItem{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    background-color: lightgreen;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    @media only screen and (max-width: 600px){
+
+    }
+    @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+      }
+      
+}
+
+
